@@ -1,0 +1,103 @@
+.cont-carrito {
+  width: 90%;
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.cont-carrito .carrito-list {
+  width: 55%;
+  margin: auto;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.cont-carrito .carrito-list .carrito-product {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid lightgrey;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.cont-carrito .carrito-list .carrito-product img {
+  width: 5rem;
+}
+
+.cont-carrito .carrito-list .carrito-product .product-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.cont-carrito .carrito-list .carrito-product .product-items button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cont-carrito .carrito-list .carrito-product .eliminar {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.cont-carrito .carrito-list .carrito-pago {
+  width: 90%;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.cont-carrito .carrito-list .carrito-pago .precio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cont-carrito .carrito-list .enviar {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=carrito.css.map */

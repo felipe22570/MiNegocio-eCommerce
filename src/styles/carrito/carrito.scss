@@ -1,0 +1,72 @@
+.cont-carrito {
+   width: 90%;
+   margin: 3rem auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+
+   .carrito-list {
+      width: 55%;
+      margin: auto;
+      padding: 1rem 1rem 2rem 1rem;
+
+      .carrito-product {
+         width: 100%;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         font-size: 1rem;
+         border-bottom: 1px solid lightgrey;
+         padding: 0.5rem 0 0.5rem 0;
+
+         img {
+            width: 5rem;
+         }
+
+         .product-items {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            button {
+               padding: 0.5rem 1rem 0.5rem 1rem;
+               font-size: 1.5rem;
+               cursor: pointer;
+            }
+         }
+
+         .eliminar {
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            width: 3rem;
+            cursor: pointer;
+         }
+      }
+
+      .carrito-pago {
+         width: 90%;
+         margin: 2rem auto;
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+         font-size: 1.1rem;
+
+         .precio {
+            display: flex;
+            justify-content: space-between;
+         }
+      }
+
+      .enviar {
+         width: 90%;
+         margin: auto;
+         display: flex;
+         justify-content: flex-end;
+      }
+   }
+}

@@ -1,0 +1,61 @@
+.navbar {
+  width: 90%;
+  margin: auto;
+  height: 3rem;
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar .navbar-logo img {
+  width: 3rem;
+}
+
+.navbar .navbar-info-user {
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.navbar .navbar-info-user:hover {
+  font-weight: 700;
+}
+
+.navbar .navbar-info-user .hidden {
+  display: none;
+}
+
+.navbar .navbar-info-user .boton-salir {
+  padding: 0.5rem;
+  color: white;
+  background-color: red;
+  border: 1px solid lightcoral;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=navbar.css.map */

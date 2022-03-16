@@ -1,0 +1,46 @@
+.navbar {
+   width: 90%;
+   margin: auto;
+   height: 3rem;
+   padding-top: 0.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   .navbar-logo {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+
+      img {
+         width: 3rem;
+      }
+   }
+
+   .navbar-info-user {
+      font-size: 1.4rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      &:hover {
+         font-weight: 700;
+      }
+
+      .hidden {
+         display: none;
+      }
+
+      .boton-salir {
+         padding: 0.5rem;
+         color: white;
+         background-color: red;
+         border: 1px solid lightcoral;
+         border-radius: 5px;
+         cursor: pointer;
+      }
+   }
+}
